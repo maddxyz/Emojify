@@ -15,6 +15,9 @@
 		0AD34FA621F74DBF007EECB0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0AD34FA421F74DBF007EECB0 /* LaunchScreen.storyboard */; };
 		0AD34FB121F74DBF007EECB0 /* EmojifyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AD34FB021F74DBF007EECB0 /* EmojifyTests.swift */; };
 		0AD34FBC21F74DBF007EECB0 /* EmojifyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AD34FBB21F74DBF007EECB0 /* EmojifyUITests.swift */; };
+		0AD34FCA21F76789007EECB0 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AD34FC921F76789007EECB0 /* CollectionViewCell.swift */; };
+		0AD34FCC21F76A6D007EECB0 /* Emoji.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AD34FCB21F76A6D007EECB0 /* Emoji.swift */; };
+		0AD34FCE21F76E0F007EECB0 /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AD34FCD21F76E0F007EECB0 /* APIClient.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		0AD34FB721F74DBF007EECB0 /* EmojifyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EmojifyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0AD34FBB21F74DBF007EECB0 /* EmojifyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojifyUITests.swift; sourceTree = "<group>"; };
 		0AD34FBD21F74DBF007EECB0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0AD34FC921F76789007EECB0 /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		0AD34FCB21F76A6D007EECB0 /* Emoji.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Emoji.swift; sourceTree = "<group>"; };
+		0AD34FCD21F76E0F007EECB0 /* APIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,8 +106,11 @@
 			isa = PBXGroup;
 			children = (
 				0AD34F9921F74DBD007EECB0 /* AppDelegate.swift */,
+				0AD34FCB21F76A6D007EECB0 /* Emoji.swift */,
+				0AD34FCD21F76E0F007EECB0 /* APIClient.swift */,
 				0AD34F9B21F74DBD007EECB0 /* FirstViewController.swift */,
 				0AD34F9D21F74DBD007EECB0 /* SecondViewController.swift */,
+				0AD34FC921F76789007EECB0 /* CollectionViewCell.swift */,
 				0AD34F9F21F74DBD007EECB0 /* Main.storyboard */,
 				0AD34FA221F74DBF007EECB0 /* Assets.xcassets */,
 				0AD34FA421F74DBF007EECB0 /* LaunchScreen.storyboard */,
@@ -259,9 +268,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0AD34FCC21F76A6D007EECB0 /* Emoji.swift in Sources */,
 				0AD34F9E21F74DBD007EECB0 /* SecondViewController.swift in Sources */,
 				0AD34F9A21F74DBD007EECB0 /* AppDelegate.swift in Sources */,
+				0AD34FCA21F76789007EECB0 /* CollectionViewCell.swift in Sources */,
 				0AD34F9C21F74DBD007EECB0 /* FirstViewController.swift in Sources */,
+				0AD34FCE21F76E0F007EECB0 /* APIClient.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
